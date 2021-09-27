@@ -46,13 +46,10 @@ const Intro = () => {
 
     return (
         <div
-            style={{
-                width: '100%'
-            }}
             className='container'
         >
             <div
-                style={{width: '100%', position: 'relative'}}
+                className='header'
             >
                 <img
                     src='/img/headerbackground.png'
@@ -83,12 +80,32 @@ const Intro = () => {
                             storeLink={STORE_LINK.googlePlay}
                         />
                     </div>
-
                 </div>
-                <div className='m_store-button'>
-                    <StoreButton
-                        storeLink={storeLinkMobile}
-                    />
+            </div>
+
+            <div
+                className='m_header'
+            >
+                <img
+                    src='/img/m_header_background.png'
+                    style={{width: '100%'}}
+                />
+                <div
+                    style={{
+                        position: 'absolute',
+                        left: 0,
+                        bottom: 0,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'flex-start',
+                        width: '100%'
+                    }}
+                >
+                    <div className='m_store-button'>
+                        <StoreButton
+                            storeLink={storeLinkMobile}
+                        />
+                    </div>
                 </div>
             </div>
 
@@ -101,6 +118,15 @@ const Intro = () => {
                     }
 
                     .m_intro_img{
+                        display: none;
+                    }
+
+                    .header{
+                        width: 100%;
+                        position: relative;
+                    }
+
+                    .m_header{
                         display: none;
                     }
 
@@ -143,6 +169,16 @@ const Intro = () => {
                             width: 100%;
                         }
 
+                        .m_header{
+                            display: block;
+                            width: 100%;
+                            position: relative;
+                        }
+    
+                        .header{
+                            display: none;
+                        }
+
                         .container{
                             text-align: left
                         }
@@ -165,7 +201,6 @@ const Intro = () => {
                         .m_store-button{
                             display: block;
                             margin: 10px;
-                            margin-bottom: 40px;
                         }
                     }
                 `}

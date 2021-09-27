@@ -17,7 +17,7 @@ const SpecificationsDesktop = () => {
             <Specification
                 title={'​운행기록 다운로드'}
                 content={'차계부 운행일지를\n국세청 양식에 맞춰\n이메일로 보내드려요'}
-                imgSrc='/img/employer/img_employer_seeker_searching@2x.png'
+                imgSrc='/img/specifications/spec2.png'
                 imgAlign='left'
                 backgroundColor='#ebf5ff'
                 titleColor='#0275f3'
@@ -26,7 +26,7 @@ const SpecificationsDesktop = () => {
             <Specification
                 title={'차량 공동관리'}
                 content={'차량을 배우자와 함께,\n법인차량을 여러명이 이용시\n차량관리를 함께 할 수 있어요'}
-                imgSrc='/img/employer/img_employer_matched_seeker@2x.png'
+                imgSrc='/img/specifications/spec3.png'
                 imgAlign='right'
                 backgroundColor='#fff'
                 titleColor='#0275f3'
@@ -35,9 +35,9 @@ const SpecificationsDesktop = () => {
             <Specification
                 title={'​정비 알림 서비스'}
                 content={'소모품 교체 시기에 맞춰\n정비알림을 보내줘요'}
-                imgSrc='/img/employer/img_employer_hiring_care@2x.png'
+                imgSrc='/img/specifications/spec4.png'
                 imgAlign='left'
-                backgroundColor='#ebf5ff'
+                backgroundColor='#e2f3ff'
                 titleColor='#0275f3'
                 contentColor='#333'
             />
