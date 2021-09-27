@@ -60,7 +60,6 @@ const Header = () => {
                         padding: '8px 12px',
                         marginRight: 8
                     }}  
-                    onClick={() => onChangeTab('알바님')}
                 >
                     회사  소개
                 </a>
@@ -139,7 +138,7 @@ const Header = () => {
 
                 @media screen and (max-width: 1000px){
                     .container{
-                        width: 80%  
+                        width: 80%;
                     }
 
                     .nav_bar{

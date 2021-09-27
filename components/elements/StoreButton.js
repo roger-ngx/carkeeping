@@ -19,7 +19,8 @@ const StoreButton = ({ storeName, storeLink }) => {
                 color: 'white',
                 borderRadius: 2,
                 padding: '16px 24px',
-                fontSize: 16
+                fontSize: 16,
+                fontWeight: 'bold'
             }}
             variant='contained'
             color='default'

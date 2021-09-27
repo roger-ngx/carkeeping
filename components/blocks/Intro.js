@@ -90,14 +90,24 @@ const Intro = () => {
                     src='/img/m_header_background.png'
                     style={{width: '100%'}}
                 />
+
+                <div
+                    style={{position: 'absolute', top: '10%', left: '20%'}}
+                >
+                    <img
+                        src='/img/m_header_intro.png'
+                        style={{width: '40vw', height: 'auto'}}
+                    />
+                </div>
                 <div
                     style={{
                         position: 'absolute',
                         left: 0,
+                        right: 0,
                         bottom: 0,
                         display: 'flex',
                         flexDirection: 'column',
-                        justifyContent: 'flex-start',
+                        alignItems: 'center',
                         width: '100%'
                     }}
                 >
@@ -200,7 +210,8 @@ const Intro = () => {
                         
                         .m_store-button{
                             display: block;
-                            margin: 10px;
+                            margin-bottom: 20px;
+                            width: 60%;
                         }
                     }
                 `}

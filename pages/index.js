@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <div style={{width: '100%'}}>
-        <div style={{position: 'absolute', left: 0, top: 0, width: '100%', zIndex: 1, padding: '0 20%'}}>
+        <div className='header'>
           <Header />
         </div>
         <Intro /> 
@@ -103,6 +103,15 @@ export default function Home() {
           font-size: 1.5rem;
         }
 
+        .header{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          z-index: 1;
+          padding: 0 20%;
+        }
+
         code {
           background: #fafafa;
           border-radius: 5px;
@@ -154,6 +163,12 @@ export default function Home() {
 
         .logo {
           height: 1em;
+        }
+
+        @media screen and (max-width: 1000px){
+          .header{
+            display: none;
+          }
         }
 
         @media (max-width: 600px) {
