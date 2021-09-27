@@ -1,0 +1,19 @@
+const path = require("path");
+
+module.exports = {
+  webpackFinal: async (config, { configType }) => {
+    config.resolve.modules.push(path.resolve(__dirname, '../components'));
+
+    return config;
+  },
+
+  "stories": [
+    "../stories/**/*.stories.mdx",
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)",
+  ],
+  "addons": [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials"
+  ]
+}
