@@ -23,8 +23,9 @@ const TabMovingButton = () => {
             variant='outlined'
             color='default'
             endIcon={<img src='/icon/icon_arrow@2x.png' style={{height: 8, marginLeft: 24}}/>}
-            onClick={() => {
-                
+            onClick={(e) => {
+                window.location = 'mailto:jhjang@placa.co.kr';
+                e.preventDefault();
             }}
         >
             <Typography

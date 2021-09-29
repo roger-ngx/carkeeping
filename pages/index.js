@@ -26,15 +26,20 @@ export default function Home() {
         <Intro /> 
       </div>
  
+      <section id='specs'>
       <Specifications />
+      </section>
 
+      <section id='company_info'>
       <CompanyInfo />
+      </section>
 
-      <footer>
+      <footer id='contact'>
         <Footer />
       </footer>
 
       <style jsx>{`
+        html{scroll-behavior:smooth}
 
         .container {
           min-height: 100vh;

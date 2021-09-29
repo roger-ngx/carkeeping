@@ -1,5 +1,4 @@
 import React, { useState, useContext, useRef, useEffect } from 'react';
-import StoreButton from 'components/elements/StoreButton';
 import { Button, IconButton, Popper, Grow, Paper, ClickAwayListener, MenuList, MenuItem } from '@material-ui/core';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
@@ -46,7 +45,14 @@ const Header = () => {
                         color: 'white',
                         fontWeight: 'normal',
                         padding: '8px 12px',
-                        marginRight: 8
+                        marginRight: 8,
+                        textDecoration: 'none',
+                        cursor: 'pointer'
+                    }}
+                    //to='/specs'
+                    onClick={() => {
+                        let specs = document.getElementById("specs");
+                        specs && specs.scrollIntoView({ behavior: "smooth", block: "start" });
                     }}
                 >
                     앱 소개
@@ -58,8 +64,15 @@ const Header = () => {
                         color: 'white',
                         fontWeight: 'normal',
                         padding: '8px 12px',
-                        marginRight: 8
-                    }}  
+                        marginRight: 8,
+                        textDecoration: 'none',
+                        cursor: 'pointer'
+                    }}
+                    //href='/company_info'
+                    onClick={() => {
+                        let company_info = document.getElementById("company_info");
+                        company_info && company_info.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}
                 >
                     회사  소개
                 </a>
@@ -69,6 +82,13 @@ const Header = () => {
                         color: 'white',
                         fontWeight: 'normal',
                         padding: '8px 12px',
+                        textDecoration: 'none',
+                        cursor: 'pointer'
+                    }}
+                    // href='#contact'
+                    onClick={() => {
+                        let contact = document.getElementById("contact");
+                        contact && contact.scrollIntoView({ behavior: "smooth", block: "start" });
                     }}
                 >
                     고객센터
