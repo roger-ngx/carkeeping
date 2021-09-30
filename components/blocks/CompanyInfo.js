@@ -44,7 +44,10 @@ const CompanyInfo = () => {
             </div>
             <style jsx>{`
                 .container{
-                    padding: 65px 20%
+                    padding: 65px 20%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
 
                 .year-container{
