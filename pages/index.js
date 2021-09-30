@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>단기알바, 쑨 - 좋은알바만 모았다</title>
-        <link rel="icon" href="/soon.png" />
+        <title>차집사 - 내 손안 차량 가계부</title>
+        <link rel="icon" href="/carkeeping.png" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
-        <meta name='description' content='단기알바 필요할 때 찾지말고 부르세요. 배정부터 출근까지 책임지는 SOON' />
-        <meta name='keywords' content='알바,아르바이트,단기알바,당일알바,외식,요식,일용직,구인구직,주방,서빙,알바천국,알바몬,급구,알바콜,일당백,당빠,알바체크,벼룩시장,사람인,잡코리아,워크넷,알밤,캐시노트,원티드,부업' />
-        <meta name='author' content='쑨 soon' />
+        <meta name='description' content='' />
+        <meta name='keywords' content='' />
+        <meta name='author' content='차집사' />
       </Head>
 
       <div style={{width: '100%'}}>
@@ -74,6 +74,10 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+        }
+
+        section{
+          width: 100%;
         }
 
         a {

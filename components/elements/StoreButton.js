@@ -9,7 +9,7 @@ const StoreButton = ({ storeName, storeLink }) => {
         {
         storeName ?
         <a>
-            <img style={{width: '100%', height: 'auto'}} src={storeName === 'App Store'?'/img/appstoredownload.png':'/img/googleplaydownload.png'} />
+            <img style={{width: '100%', height: 'auto'}} src={storeName === 'App Store'?'/img/app_store_download.png':'/img/google_play_download.png'} />
         </a>
         :
         <Button
