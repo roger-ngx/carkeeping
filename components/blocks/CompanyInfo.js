@@ -88,7 +88,7 @@ const CompanyInfo = () => {
 
                 @media screen and (max-width: 800px){
                     .container{
-                        padding: 24px 12px;
+                        padding: 70px 12px;
                     }
 
                     .year-container{

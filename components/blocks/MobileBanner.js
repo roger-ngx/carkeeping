@@ -11,8 +11,8 @@ const MobileBanner = () => (
                 width: '100%'
             }}
         >
-            <div style={{textAlign: 'center', color: 'white', fontSize: 16}}>차집사로 운행일지 작성하고</div>
-            <div style={{textAlign: 'center', color: 'white', fontSize: 20, fontWeight: 'bold'}}>세제혜택 받으세요!</div>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 22}}>차집사로 운행일지 작성하고</div>
+            <div style={{textAlign: 'center', color: 'white', fontSize: 32, fontWeight: 'bold'}}>세제혜택 받으세요!</div>
         </div>
     </div>
 )

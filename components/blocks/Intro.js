@@ -211,7 +211,7 @@ const Intro = () => {
                         .m_store-button{
                             display: block;
                             margin-bottom: 20px;
-                            width: 60%;
+                            width: calc(100% - 32px);
                         }
                     }
                 `}
