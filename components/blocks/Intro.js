@@ -92,7 +92,7 @@ const Intro = () => {
                 />
 
                 <div
-                    style={{position: 'absolute', top: '10%', left: '20%'}}
+                    style={{position: 'absolute', top: '10%', width: '100%', textAlign: 'center'}}
                 >
                     <img
                         src='/img/m_header_intro.png'
@@ -176,13 +176,13 @@ const Intro = () => {
 
                         .m_intro_img{
                             display: block;
-                            width: 100%;
                         }
 
                         .m_header{
                             display: block;
                             width: 100%;
                             position: relative;
+                            overflow: hidden;
                         }
     
                         .header{

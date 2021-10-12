@@ -8,10 +8,10 @@ const Banner = () => (
             alignItems: 'center'
         }}
     >
-        <img src='/icon/gift.png' />
+        <img src='/icon/gift.png' style={{width: 64, height: 64}}/>
         <div style={{marginLeft: 8}}>
-            <p style={{fontSize: 10, margin: 0}}>차집사로 운행일지 작성하고</p>
-            <p style={{fontSize: 16, fontWeight: 'bold', margin: 0}}><span style={{color: '#0076f5'}}>세제혜택</span> 받으세요!</p>
+            <p style={{fontSize: 21, margin: 0}}>차집사로 운행일지 작성하고</p>
+            <p style={{fontSize: 32, fontWeight: 'bold', margin: 0}}><span style={{color: '#0076f5'}}>세제혜택</span> 받으세요!</p>
         </div>
     </div>
 )
