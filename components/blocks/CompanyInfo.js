@@ -4,6 +4,7 @@ const CompanyInfo = () => {
 
     return (
         <div className='container'>
+            <div className='title'>차집사가 걸어온 길</div>
             <div className='year-container' style={{marginBottom: 32}}>
                 <span className='year'>2021</span>
                 <div>
@@ -44,7 +45,7 @@ const CompanyInfo = () => {
             </div>
             <style jsx>{`
                 .container{
-                    padding: 65px 20%
+                    padding: 166px 20%
                 }
 
                 .year-container{
@@ -56,6 +57,15 @@ const CompanyInfo = () => {
                     display: flex;
                     flex-direction: row
                 }
+
+                .title{
+                    color: #333;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 32px;
+                }
+
                 .year{
                     margin-right: 20px
                 }

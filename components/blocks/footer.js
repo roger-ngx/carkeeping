@@ -30,7 +30,7 @@ const Footer = () => {
                 <img src='/logoblack.png' />
                 <p style={{color: '#838383', marginTop: 24, lineHeight: 1.67}}>
                     <p style={{margin: 0}}>(주)플라카   |   대표이사: 장중호   |   사업자등록번호: 444-81-01722   |   서울시 영등포구 국제금융로2길 37(S-TRENUE) 2703호</p>
-                    <p style={{margin: 0}}>호스팅 사업자: Amazon Web Services(AWS)   |   고객센터: jhjang@placa.co.kr</p>
+                    <p style={{margin: 0}}>호스팅 사업자: Amazon Web Services(AWS)   |   고객센터: cs@placa.co.kr</p>
                 </p>
                 <div style={{display: 'flex', flexDirection: 'row'}}>
                     <a target='_blank' rel="noreferrer" href={SERVICE_AGREEMENT}>​서비스 이용약관</a>

@@ -42,14 +42,14 @@ const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAli
                 }
 
                 .title{
-                    font-size: 14px;
+                    font-size: 20px;
                     color: ${titleColor};
                     margin-bottom: 44px;
                 }
                 
                 .text_content{
                     font-weight: bold;
-                    font-size: 20px;
+                    font-size: 28px;
                     color: ${contentColor};
                 }
 
@@ -66,7 +66,6 @@ const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAli
                     .text_content{
                         margin-bottom: 18px;
                         text-align: center;
-                        line-height: 22px;
                     }
 
                     .inner_container{

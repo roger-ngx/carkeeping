@@ -22,7 +22,7 @@ const TabMovingButton = () => {
             }}
             variant='outlined'
             color='default'
-            endIcon={<img src='/icon/icon_arrow@2x.png' style={{height: 8, marginLeft: 24}}/>}
+            endIcon={<img src='/icon/icon_arrow@2x.png' style={{height: 8, marginLeft: 48}}/>}
             onClick={() => {
                 
             }}
@@ -35,7 +35,7 @@ const TabMovingButton = () => {
                     fontWeight: 'bold'
                 }}
             >
-                jhjang@placa.co.kr
+                cs@placa.co.kr
             </Typography>
         </Button>
         <style jsx>
