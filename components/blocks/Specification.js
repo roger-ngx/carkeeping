@@ -1,6 +1,7 @@
 import React from 'react';
+import Banner from './Banner';
 
-const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAlign, backgroundColor}) => {
+const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAlign, backgroundColor, hasBanner}) => {
 
     return (
         <div
@@ -12,10 +13,16 @@ const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAli
             className='container'
         >
             <div className='inner_container'>
-                <div style={{display: 'flex', flex: 1, justifyContent: 'center'}}>
+                <div style={{display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
                     <div>
                         <p className='title'>{title}</p>
                         <p className='text_content'>{content}</p>
+                        {
+                            hasBanner &&
+                            <div className='banner'>
+                                <Banner />
+                            </div>
+                        }
                     </div>
                 </div>
                 <div style={{display: 'flex', flex: 1, justifyContent: 'center'}}>
@@ -30,6 +37,10 @@ const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAli
 
                 .img_container{
                     max-width: 100%;
+                }
+
+                .banner{
+                    display: block;
                 }
 
                 .inner_container{
@@ -56,6 +67,10 @@ const Specification = ({title, content, titleColor, contentColor, imgSrc, imgAli
                 @media screen and (max-width: 800px){
                     .container{
                         padding: 24px 12px
+                    }
+
+                    .banner{
+                        display: none;
                     }
 
                     .title{

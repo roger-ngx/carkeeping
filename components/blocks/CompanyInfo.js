@@ -46,6 +46,9 @@ const CompanyInfo = () => {
             <style jsx>{`
                 .container{
                     padding: 166px 20%
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
 
                 .year-container{

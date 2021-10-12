@@ -9,7 +9,7 @@ const StoreButton = ({ storeName, storeLink }) => {
         {
         storeName ?
         <a>
-            <img style={{width: '100%', height: 'auto'}} src={storeName === 'App Store'?'/img/appstoredownload.png':'/img/googleplaydownload.png'} />
+            <img style={{width: '100%', height: 'auto'}} src={storeName === 'App Store'?'/img/app_store_download.png':'/img/google_play_download.png'} />
         </a>
         :
         <Button
@@ -19,7 +19,8 @@ const StoreButton = ({ storeName, storeLink }) => {
                 color: 'white',
                 borderRadius: 2,
                 padding: '16px 24px',
-                fontSize: 16
+                fontSize: 16,
+                fontWeight: 'bold'
             }}
             variant='contained'
             color='default'
