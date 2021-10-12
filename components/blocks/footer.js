@@ -80,7 +80,7 @@ const Footer = () => {
                     }
 
                     .footer{
-                        padding: 24px 32px;
+                        padding: 70px 32px;
                         background-color: #f5f6f7;
                     }
 
