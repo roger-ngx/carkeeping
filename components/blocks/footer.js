@@ -76,7 +76,7 @@ const Footer = () => {
                     .container{
                         display: flex;
                         flex-direction: column;
-                        margin-bottom: 24px
+                        margin-bottom: 70px
                     }
 
                     .footer{
@@ -97,7 +97,7 @@ const Footer = () => {
 
                     .company_info{
                         font-size: 14px;
-                        margin-top: 24px
+                        margin-top: 70px
                     }
                 }
             `}
