@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const StoreButton = ({ storeName, storeLink }) => {
 

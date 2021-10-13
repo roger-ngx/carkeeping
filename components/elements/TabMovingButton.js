@@ -1,9 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Button, Typography, useMediaQuery } from '@material-ui/core';
-import { TabsContext } from 'contexts/TabContext';
 
 const TabMovingButton = () => {
-    const { selectedTab, setSelectedTab } = useContext(TabsContext);
     const mobile = useMediaQuery('(max-width: 600px)');
 
     return (

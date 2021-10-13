@@ -1,13 +1,9 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { TabsContext } from 'contexts/TabContext';
+import React, { useState, useEffect } from 'react';
 import StoreButton from 'components/elements/StoreButton';
-import { Typography } from '@material-ui/core';
-import Image from 'next/image';
 import { STORE_LINK } from 'constants/initValues';
 
 const Intro = () => {
 
-    const { selectedTab } = useContext(TabsContext);
     const [ storeLinkMobile, setStoreLinkMobile ] = useState();
 
     const getOS = () => {
@@ -96,7 +92,7 @@ const Intro = () => {
                 >
                     <img
                         src='/img/m_header_intro.png'
-                        style={{width: '40vw', height: 'auto'}}
+                        style={{width: '50vw', height: 'auto'}}
                     />
                 </div>
                 <div
