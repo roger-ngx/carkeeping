@@ -8,7 +8,7 @@ const StoreButton = ({ storeName, storeLink }) => {
         <>
         {
         storeName ?
-        <a>
+        <a style={{cursor: 'pointer'}} onClick={() => window.open(storeLink)}>
             <img style={{width: '100%', height: 'auto'}} src={storeName === 'App Store'?'/img/app_store_download.png':'/img/google_play_download.png'} />
         </a>
         :
